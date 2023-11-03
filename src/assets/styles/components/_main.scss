@@ -94,4 +94,7 @@ main {
 
 #welcome, #about, #roller-type, #roller-technics {
   scroll-margin-top: 140px;
+  @include for-tablet {
+    scroll-margin-top: 220px;
+  }
 }
