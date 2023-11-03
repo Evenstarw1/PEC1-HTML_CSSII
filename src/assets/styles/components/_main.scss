@@ -2,6 +2,7 @@ main {
   margin-top: 12rem;
 }
 
+//main section container
 .main__container {
   margin-bottom: 2rem;
   margin-left: 3rem;
@@ -82,6 +83,7 @@ main {
   color: $color-blue;
 }
 
+//description list
 .dt {
   &__title {
     font-size: $font-l;
@@ -98,6 +100,7 @@ main {
   }
 }
 
+//added margin top when scroll from navbar
 #welcome, #about, #roller-type, #roller-technics {
   scroll-margin-top: 140px;
   @include for-tablet {
