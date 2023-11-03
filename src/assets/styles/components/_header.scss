@@ -9,6 +9,7 @@
   padding-top: 1rem;
   padding-bottom: 5rem;
   padding-right: 2rem;
+  z-index: 2;
   background-color: $background-color-header;
   --mask:
     radial-gradient(94.63px at 50% calc(100% - 132.00px),#000 99%,#0000 101%) calc(50% - 110px) 0 / 220px 100%,

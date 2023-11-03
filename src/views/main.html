@@ -1,7 +1,7 @@
 <main>
     <div class="main__container" id="welcome">
         <h1>BIENVENIDOS A SOBRE RUEDAS</h1>
-        <div class="main__container_cards">
+        <div class="main__container_description main__container_center">
             <p>
                 Me llamo Laura y soy una aficionada al mundo de los patines.
                 Pese a ser una principiante, es un deporte que me ha conquistado
@@ -9,26 +9,27 @@
                 para dar información a aquellas personas interesadas en formar
                 parte de este mundo.
             </p>
+            <img class="main__container_img--animated animate__animated animate__fadeInRight animate__delay-5s animate__repeat-3 animate__slower"
+                src="./assets/images/roller.gif" alt="Animated roller girl" />
         </div>
     </div>
 
     <div class="main__container" id="about">
         <h2>¿Qué es?</h2>
         <div class="main__container_description main__container_center">
-        <blockquote cite="https://es.wikipedia.org/wiki/Patinaje_art%C3%ADstico_sobre_ruedas">
-            <p>El patinaje sobre ruedas es una disciplina deportiva de
-                deslizamiento en la que los participantes hacen figuras, saltos,
-                piruetas y otros ejercicios técnicos utilizando patines sobre
-                ruedas. Requiere una buena preparación física y una gran capacidad
-                de concentración. Se puede competir en varias categorías: patinaje
-                libre, figuras obligatorias, patinaje artístico, parejas de danza,
-                Solo Dance, grupos Show, cuartetos y patinaje sobre ruedas en línea
-                (in-line).</p>
-            <cite class="cite__description">Fuente: Wikipedia</cite>
-        </blockquote>
-        <img
-        class="main__container_img main__container_img--height"
-        src="./assets/images/roller-family.jpg"/>
+            <blockquote cite="https://es.wikipedia.org/wiki/Patinaje_art%C3%ADstico_sobre_ruedas">
+                <p>El patinaje sobre ruedas es una disciplina deportiva de
+                    deslizamiento en la que los participantes hacen figuras, saltos,
+                    piruetas y otros ejercicios técnicos utilizando patines sobre
+                    ruedas. Requiere una buena preparación física y una gran capacidad
+                    de concentración. Se puede competir en varias categorías: patinaje
+                    libre, figuras obligatorias, patinaje artístico, parejas de danza,
+                    Solo Dance, grupos Show, cuartetos y patinaje sobre ruedas en línea
+                    (in-line).</p>
+                <cite class="cite__description">Fuente: Wikipedia</cite>
+            </blockquote>
+            <img class="main__container_img main__container_img--height" src="./assets/images/roller-family.jpg
+        alt=" family with rollers" />
         </div>
     </div>
 
@@ -36,10 +37,7 @@
         <h2>Tipos de patines</h2>
         <div class="main__container_cards">
             <div class="main__container_card">
-                <img
-                    class="main__container_img"
-                    src="./assets/images/roller-quad.jpg"
-                />
+                <img class="main__container_img" src="./assets/images/roller-quad.jpg" alt="pink roller quads" />
                 <h3>Rollerquad - A 4 ruedas</h3>
                 <p>
                     Este tipo de patines tiene una mayor estabilidad, perfectos
@@ -49,10 +47,7 @@
                 </p>
             </div>
             <div class="main__container_card">
-                <img
-                    class="main__container_img"
-                    src="./assets/images/roller-line.jpg"
-                />
+                <img class="main__container_img" src="./assets/images/roller-line.jpg" alt="pink line rollers" />
                 <h3>Rollers in Line - En línea</h3>
                 <p>
                     Es más difícil encontrar el equilibrio en este tipo de
@@ -112,14 +107,12 @@
         <h3>Apuntate a la Newsletter!</h3>
         <form action="" method="get" class="main__container_form">
             <div class="main__container_input">
-                <label for="name"
-                    ><i class="fa-solid fa-user"></i> Tu nombre:
+                <label for="name"><i class="fa-solid fa-user"></i> Tu nombre:
                 </label>
                 <input type="text" name="name" id="name" required />
             </div>
             <div class="main__container_input">
-                <label for="email"
-                    ><i class="fa-solid fa-envelope"></i> Tu correo electrónico:
+                <label for="email"><i class="fa-solid fa-envelope"></i> Tu correo electrónico:
                 </label>
                 <input type="email" name="email" id="email" required />
             </div>
