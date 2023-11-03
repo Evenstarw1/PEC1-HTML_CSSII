@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/jpg" href="logo-roller.83b80124.ico">
@@ -11,36 +12,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Sobre Ruedas</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
     <div class="header__logo">
         <img class="header__img animate__animated animate__fadeInRightBig" src="logo-roller.f79b28ce.png" alt="Rolling wheels">
         <a href="index.html" class="header__title">SOBRE RUEDAS</a>
     </div>
-  <nav class="navbar">
-    <div class="navbar__responsive">
-        <div class="navbar__bars navbar__bars_open" onclick="navBarOnClick()">
-            <i class="fa-solid fa-bars"></i>
+    <nav class="navbar">
+        <div class="navbar__responsive">
+            <div class="navbar__bars navbar__bars_open" onclick="navBarOnClick()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="navbar__bars navbar__bars_close" onclick="navBarCloseOnClick()">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="navbar__dropdrown">
+                <ul id="navbar-links" class="navbar__menu_dropdown">
+                    <li><a href="#about" class="navbar__links">Qué es</a></li>
+                    <li><a href="#roller-type" class="navbar__links">Tipos de patines</a></li>
+                    <li><a href="#roller-technics" class="navbar__links">Disciplinas del patinaje</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navbar__bars navbar__bars_close" onclick="navBarCloseOnClick()">
-            <i class="fa-solid fa-x"></i>
-        </div>
-        <div class="navbar__dropdrown">
-            <ul id="navbar-links" class="navbar__menu_dropdown">
-                <li><a href="#about" class="navbar__links">Qué es</a></li>
-                <li><a href="#roller-type" class="navbar__links">Tipos de patines</a></li>
-                <li><a href="#roller-technics" class="navbar__links">Disciplinas del patinaje</a></li>
-            </ul>
-        </div>
-    </div>
-    <ul class="navbar__menu">
-        <li><a href="#about" class="navbar__links">Qué es</a></li>
-        <li><a href="#roller-type" class="navbar__links">Tipos de patines</a></li>
-        <li><a href="#roller-technics" class="navbar__links">Disciplinas del patinaje</a></li>
-    </ul>
-  </nav>
+        <ul class="navbar__menu">
+            <li><a href="#about" class="navbar__links">Qué es</a></li>
+            <li><a href="#roller-type" class="navbar__links">Tipos de patines</a></li>
+            <li><a href="#roller-technics" class="navbar__links">Disciplinas del patinaje</a></li>
+        </ul>
+    </nav>
 </header>
+
     <main>
     <div class="main__container" id="welcome">
         <h1>BIENVENIDOS A SOBRE RUEDAS</h1>
@@ -107,7 +110,7 @@
                 <i class="fa-solid fa-star dt__title--blue-mark"></i> Artístico
             </dt>
             <dd class="dt__description">
-                El patinaje artístico, o PAL, consiste en realizar piruetas,
+                El patinaje artístico, o <abbr>PAL</abbr>, consiste en realizar piruetas,
                 saltos, giros y acrobacias durante una pieza musical. Este tipo
                 de patinaje es valorado por jueces, quienes tienen en cuenta
                 tanto el aspecto técnico como la interpretación artística en su
@@ -190,6 +193,8 @@
         <p>Todas las imágenes son de: <a class="link--primary" href="https://www.freepik.es">Freepik</a></p>
     </div>
 </footer>
+
     <script src="index.33773ee5.js"></script>
-  <script src="PEC1-HTML_CSSII.ab2256da.js"></script></body>
+<script src="PEC1-HTML_CSSII.ab2256da.js"></script></body>
+
 </html>

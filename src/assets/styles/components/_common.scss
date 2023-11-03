@@ -1,3 +1,17 @@
+//Text
+h1 {
+  line-height: 2.5rem;
+  font-size: $font-xxxl;
+}
+
+h2 {
+  font-size: font-xl;
+}
+
+h3 {
+  font-size: $font-l;
+}
+
 //Links
 .link--primary {
   text-decoration: none;
