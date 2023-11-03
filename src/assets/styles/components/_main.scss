@@ -53,10 +53,19 @@ main {
     }
     &--height {
       height: 100%;
+      width: 65%;
+      @include for-tablet {
+        width: 100%;
+      }
     }
   }
   &_technics, &_description {
     padding-top: 2rem;
+  }
+  &_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   &_input {
     padding-bottom: 0.4rem;
